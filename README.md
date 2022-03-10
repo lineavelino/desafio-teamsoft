@@ -7,8 +7,9 @@ O objetivo do projeto é a construção de um front-end, seguindo as instruçõe
 
 ### ✅ To Do List
 
-- [x] Funcionalidade adicionar ingrediente
-- [x] Funcionalidade remover ingrediente
+- [x] Adicionar ingrediente
+- [x] Remover ingrediente
+- [x] Consumir [API fake](https://6077803e1ed0ae0017d6aea4.mockapi.io/test-frontend/products)
 
 ## 🚀 Tecnologias utilizadas
 - ReactJS
