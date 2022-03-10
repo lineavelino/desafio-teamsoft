@@ -1,0 +1,107 @@
+.headerContainer {
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    width: 225.23px;
+    height: 48px;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.labelFloat {
+    position: relative;
+
+    input {
+        width: 230px;
+        height: 48px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+        font-size: 12px;
+        font-weight: bold;
+        color: #656363;
+        text-indent: 8px;
+
+        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        -webkit-appearance:none;
+    }
+
+    label {
+        position: absolute;
+        width: 80%;
+        margin-top: 13px;
+        left: 8px;
+        pointer-events: none;
+        line-height: 25px;
+        color: #D80000;
+        font-size: 12px;
+        letter-spacing: 0.2px;
+
+        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+    }
+
+    & input:focus + label,
+    & input:not(:placeholder-shown) + label{
+        margin-top: 0;
+    }
+}
+
+.arrow {
+    position: absolute;
+    left: 90%;
+    top: 40%;
+}
+
+.search {
+    width: 354px;
+    height: 48px;
+    border: 1px solid #ED3237;
+    border-radius: 4px;
+    
+    &::placeholder {
+        padding: 16.25px;
+        color: #656363;
+        font-size: 14px;
+        letter-spacing: 0.33px;
+    }
+}
+
+.loginContainer {
+    display: flex;
+    align-items: center;
+    color: #ED3237;
+}
+
+.cartContainer {
+    position: relative;
+
+    span {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        width: 16px;
+        height: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        font-size: 10px;
+        border-radius: 50%;
+        background-color:  #F09035;
+    }
+}
