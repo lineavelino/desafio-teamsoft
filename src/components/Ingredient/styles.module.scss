@@ -1,0 +1,50 @@
+.item {
+    width: 90%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8A634;
+}
+
+.itemDescription {
+    strong {
+        font-weight: 500;
+        font-size: 14px;
+        color: #4E4E4E;
+    }
+    
+    p {
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #F09035;
+    }
+}
+
+.qtdButton {
+    width: 89px;
+    height: 32px;
+    border: 1px solid #F09035;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    button {
+        cursor: pointer;
+        border: none;
+        background: none;
+        display: flex;
+        align-items: center;
+    }
+
+    span {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        color: #4E4E4E;
+    }
+}
